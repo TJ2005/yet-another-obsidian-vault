@@ -1,0 +1,60 @@
+{
+	"nodes":[
+		{"id":"376ef542370cb0f6","type":"group","x":-3280,"y":-1500,"width":2083,"height":1900,"color":"4","label":"Capability Levels"},
+		{"id":"18a872f329d93802","type":"group","x":-1520,"y":720,"width":2300,"height":1386,"color":"5","label":"Maturity Levels"},
+		{"id":"4ec664e723f8ef36","type":"group","x":-180,"y":-118,"width":1040,"height":467,"label":"Process Frameworks"},
+		{"id":"8ba25ff935f691c5","type":"group","x":-940,"y":-440,"width":639,"height":640,"label":"Basics"},
+		{"id":"4134cfb9f7813ae0","type":"file","file":"Public/Study/(SE) Software Engineering Principles/CMMI/Capability Level/CMMI Capability Level 1 - Performed.md","x":-3120,"y":-1200,"width":400,"height":400},
+		{"id":"b8a1397a917bf331","type":"file","file":"Public/Study/(SE) Software Engineering Principles/CMMI/Capability Level/CMMI Capability Level 0 - Incomplete.md","x":-2600,"y":-1480,"width":400,"height":400},
+		{"id":"3a6a59786ec22cc4","type":"file","file":"Public/Study/(SE) Software Engineering Principles/CMMI/Capability Level/CMMI Capability Level 3 - Defined.md","x":-3120,"y":-620,"width":400,"height":400},
+		{"id":"363223d2bccf8986","type":"file","file":"Public/Study/(SE) Software Engineering Principles/CMMI/Capability Level/CMMI Capability Level 4 - Quantitatively Managed.md","x":-2600,"y":-420,"width":400,"height":400},
+		{"id":"5bcde00313aaa01c","type":"file","file":"Public/Study/(SE) Software Engineering Principles/CMMI/Capability Level/CMMI Capability Level 2 - Managed.md","x":-2600,"y":-966,"width":400,"height":400},
+		{"id":"157fb8950e41dc3b","type":"file","file":"Public/Study/(SE) Software Engineering Principles/CMMI/Capability Level/CMMI Capability Level 5 - Optimizing.md","x":-3120,"y":-20,"width":400,"height":400},
+		{"id":"e0a663cfe7f1b743","type":"file","file":"Public/Study/(SE) Software Engineering Principles/CMMI/Maturity Level/CMMI Maturity Level 2 - Managed.md","x":-1113,"y":1566,"width":576,"height":520},
+		{"id":"cefb6ec863234c20","type":"file","file":"Public/Study/(SE) Software Engineering Principles/CMMI/Maturity Level/CMMI Maturity Level 4 - Quantitatively Managed.md","x":-492,"y":1566,"width":708,"height":520},
+		{"id":"fe637baf5e678ad8","type":"text","text":"### Maturity\n","x":-742,"y":760,"width":250,"height":60},
+		{"id":"f82292104a528a27","type":"file","file":"Public/Study/(SE) Software Engineering Principles/SDLC models.md","x":440,"y":-98,"width":400,"height":427},
+		{"id":"d2d3d78e6c37b1df","type":"text","text":"# Process Frameworks\nsoftware process model is an **abstraction** of the software development process.\n\n- The tasks to be performed\n- The input and output of each task\n- The pre and post-conditions for each task\n- The flow and sequence of each task","x":-160,"y":-30,"width":500,"height":290},
+		{"id":"48b6e749dd7e27c9","type":"file","file":"Public/Study/(SE) Software Engineering Principles/CMMI/Maturity Level/CMMI Maturity Level 3 - Defined.md","x":-780,"y":924,"width":576,"height":540},
+		{"id":"9342483ab8e2c5ea","type":"file","file":"Public/Study/(SE) Software Engineering Principles/CMMI/Maturity Level/CMMI Maturity Level 1 - Initial.md","x":-1401,"y":926,"width":576,"height":540},
+		{"id":"104f3b9e675669aa","type":"file","file":"Public/Study/(SE) Software Engineering Principles/CMMI/Maturity Level/CMMI Maturity Level 5 - Optimizing.md","x":-81,"y":924,"width":695,"height":542},
+		{"id":"97178af56e59572b","type":"text","text":"Continuous ","x":-920,"y":-412,"width":250,"height":60},
+		{"id":"a0554d79a8d8d8fa","type":"file","file":"Public/Study/(SE) Software Engineering Principles/CMMI/Capability Level/CMMI Capability Levels - Overview.md","x":-1860,"y":-966,"width":643,"height":483},
+		{"id":"c34fe8166155fff1","type":"text","text":"Staged","x":-571,"y":-420,"width":250,"height":60},
+		{"id":"b76c8dea0403b3c9","type":"text","text":"### Representations","x":-744,"y":-240,"width":250,"height":60},
+		{"id":"9e49fe5587753c82","type":"file","file":"Public/Study/(SE) Software Engineering Principles/CMMI/Capability Maturity Model Integration.md","x":-858,"y":50,"width":479,"height":130}
+	],
+	"edges":[
+		{"id":"8f144700443e3330","fromNode":"d2d3d78e6c37b1df","fromSide":"right","toNode":"f82292104a528a27","toSide":"left"},
+		{"id":"b0988aec213498cd","fromNode":"d2d3d78e6c37b1df","fromSide":"left","toNode":"9e49fe5587753c82","toSide":"right"},
+		{"id":"1c4cbd1b009d37d9","fromNode":"9e49fe5587753c82","fromSide":"top","toNode":"b76c8dea0403b3c9","toSide":"bottom"},
+		{"id":"e9c792f544633ce7","fromNode":"b76c8dea0403b3c9","fromSide":"top","toNode":"97178af56e59572b","toSide":"bottom"},
+		{"id":"4c4effe91b3ce12b","fromNode":"b76c8dea0403b3c9","fromSide":"top","toNode":"c34fe8166155fff1","toSide":"bottom"},
+		{"id":"71c1c4b952a832db","fromNode":"fe637baf5e678ad8","fromSide":"bottom","toNode":"9342483ab8e2c5ea","toSide":"top"},
+		{"id":"bef1eb9da226db66","fromNode":"fe637baf5e678ad8","fromSide":"bottom","toNode":"e0a663cfe7f1b743","toSide":"top"},
+		{"id":"b642a25acbfb7bb4","fromNode":"fe637baf5e678ad8","fromSide":"bottom","toNode":"48b6e749dd7e27c9","toSide":"top"},
+		{"id":"69311297bf04cd85","fromNode":"fe637baf5e678ad8","fromSide":"bottom","toNode":"cefb6ec863234c20","toSide":"top"},
+		{"id":"b6077341cc1fb378","fromNode":"fe637baf5e678ad8","fromSide":"bottom","toNode":"104f3b9e675669aa","toSide":"top"},
+		{"id":"488d001b19d5dd72","fromNode":"9e49fe5587753c82","fromSide":"left","toNode":"a0554d79a8d8d8fa","toSide":"right"},
+		{"id":"143b7d09c21da484","fromNode":"a0554d79a8d8d8fa","fromSide":"left","toNode":"b8a1397a917bf331","toSide":"right"},
+		{"id":"b58cbad6c508b3ec","fromNode":"a0554d79a8d8d8fa","fromSide":"left","toNode":"5bcde00313aaa01c","toSide":"right"},
+		{"id":"1b4ecb67aa114fd6","fromNode":"a0554d79a8d8d8fa","fromSide":"left","toNode":"4134cfb9f7813ae0","toSide":"right"},
+		{"id":"b3d0f02e01f9aa7f","fromNode":"a0554d79a8d8d8fa","fromSide":"left","toNode":"3a6a59786ec22cc4","toSide":"right"},
+		{"id":"10ff2c85c5e9f3c7","fromFloating":false,"fromNode":"a0554d79a8d8d8fa","fromSide":"left","toNode":"363223d2bccf8986","toSide":"right"},
+		{"id":"a24f33c0268b33b8","fromNode":"9e49fe5587753c82","fromSide":"bottom","toNode":"fe637baf5e678ad8","toSide":"top"},
+		{
+			"id":"c01c13bf62e6b1f6",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"a0554d79a8d8d8fa",
+			"fromSide":"left",
+			"toNode":"157fb8950e41dc3b",
+			"toSide":"right"
+		}
+	],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{},
+		"startNode":"9f3abdc8f936911e"
+	}
+}
