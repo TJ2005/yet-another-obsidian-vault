@@ -1,0 +1,175 @@
+===== PAGE 1 =====
+Name: Jal Bafana Roll no: K005 
+Btech. Cyber Security (Sem-6) Batch: K1 
+ 
+Experiment No. 9 
+Aim: Recognizing Packed Malware and unpack it with various tools 
+Title: Malware obfuscation techniques. 
+Part A: 
+Packing and obfuscation are common techniques used in malware to evade pattern-based detection and to give 
+Malware analyst/Reverse engineer a hard time reaching to the malicious content. These techniques are not only 
+used by malicious file these are also used by some legitimate software to prevent reverse engineer getting to the 
+original source code or to crack the software. In this blog we will talk about both the technique one by one with 
+the help of some packed and obfuscated files. 
+ 
+Packing 
+Packing is a subset of obfuscation. A packer is a tool that modifies the formatting of code by compressing or 
+encrypting the data.  
+Though often used to delay the detection of malicious code, there is still legitimate use for packing. Some 
+legitimate use includes protecting intellectual property or other sensitive data from being copied. 
+A stub is a small portion of code that contains the decryption or decompression agent used to decrypt the packed 
+file. 
+ 
+The packing process consists of: 
+ 
+• The original code is uploaded into the packer tool and goes through the packer process to compress or 
+encrypt the data. 
+• The original portable executable header (PE header, which consists of executable image and object files), 
+and original code are compressed or encrypted and stored in the packed section of the new executable 
+• The packed file consists of: 
+o New PE header 
+o Packed section(s) 
+o Decompression stub — used to unpack the code. 
+• During the packing process, the original entry point is relocated/obfuscated in the packed section. This 
+is important for anyone trying to analyse the code. This process makes identifying the import address 
+table (IAT) and original entry point difficult. 
+• The decompression stub is used to unpack the code upon delivery. 
+Some malware creators use custom packers, but commercial/open-source packers are also used. Some popular 
+packers include: 
+ 
+• UPX 
+• Themida 
+• The Enigma Protector 
+• VMProtect 
+• Obsidium 
+• MPRESS 
+• Exe Packer 2.300 
+• ExeStealth 
+How does UPX works? 
+Upx is commonly used packer so let’s talk about how it works. Upx create an executable which contains 3 main 
+part which are: 
+Stub: This contains the code to decompress the compressed executable this is the entry point of the packed 
+executable. 
+
+===== PAGE 2 =====
+Compressed executable: This is the original executable that is compressed with upx packer which going to be 
+decompressed by unpacking stub. 
+Empty space: Empty space is used to store the unpacked executable. If you notice all the section in packed 
+executable in pe studio you will get a section (generally UPX0) which have 0 raw-size and large virtual-size which 
+means size of that section is going to be larger during runtime which makes sense because the packed executable 
+is going to be unpacked and executed so it need space to reside. 
+ 
+Sections of a packed executable 
+ 
+How unpacking works? 
+Good thing about packing is if you want to execute a code you will have to unpack the code because packed code 
+cannot be executed. If a malware is packed it will have to unpack itself to run so a reverse engineer knows he will 
+just have to find the unpacking method to get to the malicious code, it can be an unpacking code present in 
+malware itself or a C2 command that does that. Above we talked about packed file now lets talk how does this 
+file will get unpacked. The file which are packed with UPX gets unpacked when we execute them because of 
+unpacking stub. The stub not just only unpacks the executable but also do the following: 
+ 
+1. Extracting packed file 
+2. Resolving imports 
+3. Restoring file permissions 
+4. Jumping to the Original entry point (Unpacked executable’s entry point) 
+After unpacking the original code into the UPX0 section imports of the original files are resolved if you notice 
+import section in pe studio of a packed you will find very a smaller number of imports than the actual file uses 
+these imports are resolved after unpacking. After restoring the file permission using VirtualProtect, execution 
+flow is then transferred to the entry point of the original file. We can use UPX itself to unpack a upx packed file 
+or we can just do it manually with the help of debugger. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+===== PAGE 3 =====
+Part B: 
+1. Refer  
+2. https://medium.com/@dbragetti/unpacking-malware-685de7093e5 
+3. Pack a exe file using UPX tool 
+4. Unpack a UPX packed file 
+5. Analyse header details of original and packed exe files using IDA pro. 
+6. Analyse number of imports in packed vs unpacked using ollydb 
+7. Conclude with output screenshots. 
+ 
+ 
+Packed EXE File 
+ 
+ 
+ 
+ 
+ 
+Importing 
+
+
+===== PAGE 4 =====
+ 
+ 
+ 
+ 
+The analysis has failed.  
+ 
+ 
+After seeing target address, 
+Found out we are at the end of UPX0 section, 
+Disassembler was not able to decode any instruction in it. 
+ 
+
+
+===== PAGE 5 =====
+ 
+ 
+Exe packed by UPX. 
+ 
+ 
+Unpacked exe file (RedlineStealer) 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Imports 
+
+
+===== PAGE 6 =====
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

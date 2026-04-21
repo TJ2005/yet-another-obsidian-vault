@@ -1,0 +1,15 @@
+## Active 
+## Passive
+## Countermeasures ( Sniffing )
+
+- Restrict physical access
+- Encrypt
+- Static entry of mac address of gateway in ARP
+- IPV6 instead of Ip v4
+	- IPv6 has ipsec mandatory
+- Turn of Network Id 
+- Use anti sniff tools
+
+## Tools and Methods
+### Mac flooding
+### Sniffing

@@ -1,0 +1,6 @@
+[submodule "SEM-VI-Vault"]
+	path = SEM-VI-Vault
+	url = https://github.com/spicy-potato-cat/SEM-VI-Vault
+[submodule "other-repos/SEM-VI-Vault"]
+	path = other-repos/SEM-VI-Vault
+	url = https://github.com/spicy-potato-cat/SEM-VI-Vault
