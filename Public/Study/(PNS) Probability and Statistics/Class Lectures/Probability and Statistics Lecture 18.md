@@ -43,13 +43,13 @@ To complete the solution, we need to follow these steps:
 
 2. **Rewrite the equations in the form of regression lines:**
    - For the first equation: \(2x + y = 3\)
-     \[
+     $$
      y = 3 - 2x
-     \]
+     $$
    - For the second equation: \(x = 2y + 3\)
-     \[
+     $$
      x = 2y + 3
-     \]
+     $$
 
 3. **Identify the slopes of the regression lines:**
    - The slope of the first line (\(y = 3 - 2x\)) is \(-2\).
@@ -57,15 +57,15 @@ To complete the solution, we need to follow these steps:
 
 4. **Use the property of regression lines:**
    - The product of the slopes of the two regression lines should be equal to the square of the correlation coefficient \(r\).
-     \[
-     b_{yx} \cdot b_{xy} = r^2
-     \]
+     
+$$     b_{yx} \cdot b_{xy} = r^2$$
+     
    - Here, \(b_{yx} = -2\) and \(b_{xy} = 2\).
 
 5. **Calculate the product of the slopes:**
-   \[
+   $$
    (-2) \cdot (2) = -4
-   \]
+   $$
 
 6. **Compare with the property of regression lines:**
    - The product of the slopes is \(-4\), which is not possible because \(r^2\) (the square of the correlation coefficient) must be non-negative (since \(r^2 \geq 0\)).

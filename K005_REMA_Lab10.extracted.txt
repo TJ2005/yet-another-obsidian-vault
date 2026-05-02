@@ -1,0 +1,161 @@
+===== PAGE 1 =====
+Name: Jal Bafana Roll no: K005 
+Btech. Cyber Security (Sem-6) Batch: K1 
+ 
+Experiment No. 10 
+Aim: Evidence extraction from live system and Malware analysis 
+Title: To extract and analyse data collected from RAM 
+Part A: 
+Capturing and analysing volatile data is essential for discovering important evidence. Making a RAM dump should 
+become a standard operating procedure when acquiring digital evidence before pulling the plug and taking the 
+hard drive out. Live Acquisition involves the capture of data from a system that is running when you encounter 
+it. 
+When to consider live capture: 
+• Loss of data during shutdown 
+• Pagefile set in registry to wipe at shutdown. 
+• “Evidence eliminator” apps that remove data at shutdown. 
+• Data not stored on disk (RAM contents, open ports, running processes, logged on users, etc.) 
+• Encryption 
+• Full Disk Encryption or open encrypted volumes 
+• Cached passwords/passphrases in RAM 
+• Volume of Data 
+• Too much to image everything? 
+• If you don’t need it all… 
+• Incident Response 
+• Volatile data lost if you turn off the computer. 
+• Suspect processes running only in RAM, not on disk. 
+• Court or client-imposed business interruption restrictions 
+• Kiosk/Internet Café 
+• Maybe no hard drive, booted by CD and everything is in RAM. 
+Types of Evidence Available in Volatile Memory 
+Many types of evidence are available in computer’s volatile memory that can be extracted by analysing memory 
+dumps. Volatile and ephemeral evidence types include: 
+• Running processes and services. 
+• Unpacked/decrypted versions of protected programs. 
+• System information (e.g., time elapsed since last reboot) 
+• Information about logged in users. 
+• Registry information 
+• Open network connections and ARP cache 
+• Remnants of chats, communications in social networks and MMORPG games 
+• Recent Web browsing activities including IE InPrivate mode and similar privacy-oriented modes in other 
+Web browsers. 
+• Recent communications via Webmail systems 
+• Information from cloud services 
+• Decryption keys for encrypted volumes mounted at the time of the capture. 
+• Recently viewed images. 
+• Running malware/Trojans. 
+ 
+ 
+  
+
+===== PAGE 2 =====
+Tools for Memory Forensics 
+Memory forensics is the analysis of volatile data in a computer’s memory dump. It is conducted by many 
+information security professionals to examine and identify attacks or malicious behaviours that do not leave 
+readily detectable tracks on hard drive data. Moreover, it includes investigation of advanced computer attacks 
+which are stealthy enough to avoid leaving data on the computer’s hard drive. 
+Here are some favourite memory forensics tools and framework that can aid you in conducting effective memory 
+analysis and forensics: 
+Volatility 
+Volatility is the memory forensics framework. It used for incident response and malware analysis. With this tool, 
+you can extract information from running processes, network sockets, network connection, DLLs and registry 
+hives. It also has support for extracting information from Windows crash dump files and hibernation files. 
+WindowsSCOPE 
+WindowsSCOPE is another memory forensics and reverse engineering tool used for analysing volatile memory. 
+It is primarily used for reverse engineering of malware. It provides the capability of analysing the Windows 
+kernel, drivers, DLLs, virtual and physical memory. 
+Mandiant RedLine 
+Mandiant RedLine is a favourite tool for memory and file analysis. It collects information about running processes 
+on a host, drivers from memory and gathers other data like metadata, registry data, tasks, services, network 
+information and Internet history to build a proper report. 
+HELIX3 
+HELIX3 is a live CD-based digital forensic suite created to be used in incident response. This tool can collect data 
+from physical memory, network connections, user accounts, executing processes and services, scheduled jobs, 
+Windows Registry, chat logs, screen captures, SAM files, applications, drivers, environment variables and 
+Internet history. Then it analyses and reviews the data to generate the compiled results based on reports. 
+Real Life Forensics 
+There are many reported cases of computer hacking that are prevented by applying computer forensics 
+techniques and analysing the victim’s machine. On one occasion Marquis-Boire and University of Toronto 
+colleague Bill Marczak analysed e-mails received by Bahraini activists and found a piece of spyware designed to 
+steal information from their computers. Further studies on the spyware showed similarities with the FinFisher 
+surveillance software that Gamma International sells to law enforcement agencies. 
+This shows that how significantly the computer forensics is being used to prevent major incidents and analysing 
+incidents to reveal its origin. It will help security teams to ban such traffic and contacts that are sending malicious 
+and infected files. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+===== PAGE 3 =====
+Part B: 
+1. Refer  
+a. https://www.varonis.com/blog/how-to-use-volatility 
+b. https://www.osforensics.com/tools/volatility-workbench.html#Installation-Instructions 
+c. In case if memory dump is not available then you can follow this to create memory 
+dump: 
+https://www.osforensics.com/memory-viewer.html 
+2. Conclude with output screenshots. 
+ 
+ 
+The Memory Viewer in OSForensics is a feature used in digital forensics to analyze the contents of a system’s RAM 
+(volatile memory), either in real time or from a previously captured memory image. It enables investigators to 
+examine raw memory data at a low level—typically displayed in hexadecimal and ASCII formats—to detect running 
+processes, hidden malware, encryption keys, passwords, and other sensitive artifacts that might not be found on 
+disk. Since RAM reflects the system’s active state, the Memory Viewer is particularly valuable for identifying 
+evidence of live attacks, injected code, or malicious activity that vanishes once the system is powered down, making 
+it an essential tool in incident response and forensic investigations. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+===== PAGE 4 =====
+OSforensics also has the Volatility GUI. 
+ 
+ 
+WannaCry dump 
+ 
+ 
+wannacry ransomware attack  
+
+
+===== PAGE 5 =====
+ 
+ 
+ 
+If we analyze the memory dump, we can identify @WanaDecryptor@, which is the WannaCry ransomware process. 
+This executable is responsible for encrypting files, displaying the ransom note, and managing the overall infection. 
+ 
+Key observations include the following: 
+It has its own Process ID (PID 740). 
+It is running as a user-level process (Session 0 in this case). 
+It appears alongside normal processes, indicating that it was actively running at the time the memory was captured. 
+ 
+We can trace how it started by examining the Parent Process ID (PPID). The process explorer.exe often launches 
+user-triggered programs. If @WanaDecryptor@ has a parent such as explorer.exe, it suggests that the infection may 
+have originated from user execution, such as clicking a malicious file or opening a phishing attachment. This helps 
+analysts determine the infection vector. 
+ 
+Conclusion: Thus, in this way, we can analyze memory dumps from primary memory. Tools like Volatility provide the 
+capability to understand the properties and behavior of running processes. 
+ 

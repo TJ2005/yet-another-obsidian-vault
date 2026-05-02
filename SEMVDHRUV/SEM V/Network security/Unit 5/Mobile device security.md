@@ -18,3 +18,9 @@
 | Data Security                    | Prohibit storage of sensitive data or make sure its encrypted                                 |
 | Network and application security | ensure encrypted (SSL/TLS) communication medium, Keep applications up-to-date                 |
 | User awareness and training      | Train dumb employees especially boomers                                                       |
+
+## SEM VI MDFS Study Folder
+
+- [SEM VI Subjects Index](../../../SEM VI/Subjects/index.md)
+- [MDFS Subject Index](../../../SEM VI/Subjects/(MDFS) Mobile Device Forensics and Security/index.md)
+- [MDFS Study Notes Folder](../../../SEM VI/Subjects/(MDFS) Mobile Device Forensics and Security/Study (MDFS) Mobile Device Forensics Security/)
