@@ -1,8 +1,8 @@
 ---
 Title: Probability & Statistics Lab 6
-Status: 
+Status: Incomplete
 marker: 
-tags: 
+tags: incomplete
 Date: 2025.01.22
 Time: 14:12
 ---

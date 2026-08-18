@@ -6,20 +6,24 @@ kanban-plugin: board
 
 ## Proposed
 
-- [ ] ![[(VAPT) Vulnerability Assessment and Pen Testing Index#Labs]]
 - [ ] [[Project Thrift Page]]
-- [ ] [[(REMA) Reverse Engineering and Malware Analysis Index]] Labs
-- [ ] [[Digital Forensics]] Labs
+- [ ] ##### connect@dascain.com
+- [ ] https://bts.com/contact
+- [ ] alphasights
 
 
 ## Under Progress
 
-- [ ] Portfolio
+- [ ] Manorama Main Page
 
 
 ## Completed
 
 **Complete**
+- [x] [[Digital Forensics]] Labs
+- [x] Portfolio
+- [x] ![[(VAPT) Vulnerability Assessment and Pen Testing Index#Labs]]
+- [x] [[(REMA) Reverse Engineering and Malware Analysis Index]] Labs
 - [x] [[(SA) System Administration Index]] Labs
 
 

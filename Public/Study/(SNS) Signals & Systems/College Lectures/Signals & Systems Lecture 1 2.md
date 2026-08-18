@@ -1,9 +1,9 @@
 ---
 Title: Signals & Systems
-Status: 
+Status: Incomplete
 marker:
   - "[[Btech]]"
-tags:
+tags: incomplete
   - BTech
 Date: 2024.07.30
 Time: 12:16

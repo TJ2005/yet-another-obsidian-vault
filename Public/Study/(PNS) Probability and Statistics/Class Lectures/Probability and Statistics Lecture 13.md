@@ -1,9 +1,9 @@
 ---
 Title: Probability and Statistics Lecture 13
-Status: false
+Status: Incomplete
 marker:
   - "[[Probability and Statistics (PNS)]]"
-tags:
+tags: incomplete
   - "#BTech"
 Date: 2025.02.11
 Time: 15:11

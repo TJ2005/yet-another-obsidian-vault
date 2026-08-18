@@ -1,8 +1,8 @@
 ---
 Title: Probability and Statistics Lecture 17
-Status: 
+Status: Incomplete
 marker: 
-tags: 
+tags: incomplete
 Date: 2025.02.21
 Time: 11:12
 ---

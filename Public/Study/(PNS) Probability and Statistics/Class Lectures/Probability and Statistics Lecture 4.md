@@ -1,9 +1,9 @@
 ---
 Title: Probability & Statistics Lecture 4
-Status: 
+Status: Incomplete
 marker:
   - "[[mathematics]]"
-tags: 
+tags: incomplete
 Date: 2025.01.10
 Time: 11:07
 ---

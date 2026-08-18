@@ -1,3 +1,8 @@
+---
+Status: Incomplete
+tags: incomplete
+---
+
 
 # SSL
 SSL (Secure Sockets Layer) is a protocol that encrypts data between client and server to ensure secure, authenticated, and tamper-proof communication over the internet. It has been succeeded by TLS (Transport Layer Security), which is now the standard.

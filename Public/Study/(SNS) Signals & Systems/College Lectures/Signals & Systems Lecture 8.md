@@ -1,8 +1,8 @@
 ---
 Title: Signals & Systems Lecture 8
-Status: 
+Status: Incomplete
 marker: 
-tags: 
+tags: incomplete
 Date: 2024.08.10
 Time: 11:14
 ---

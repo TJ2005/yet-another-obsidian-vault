@@ -2,3 +2,6 @@
 Private/
 .trash/
 .obsidian/
+
+# File extraction / scratch workspace (parse-docs output)
+Extracted/

@@ -1,11 +1,11 @@
 ---
 Title: Configuring a login warning banner on router R1 and R3
-Status: true
+Status: Incomplete
 marker:
   - "[[Cisco Network Simulations]]"
   - "[[OSPF]]"
   - "[[CF-LAB5.1 Setting up OSPF & Telnetting Cybersecurity Fundamentals]]"
-tags:
+tags: incomplete
 Date: 2025.09.09
 Time: 01:52
 ---

@@ -1,9 +1,9 @@
 ---
 Title: Probability Distribution Function
-Status: 
+Status: Incomplete
 marker:
   - "[[Probability and Statistics (PNS)]]"
-tags: 
+tags: incomplete
 Date: 2025.04.24
 Time: 14:09
 ---

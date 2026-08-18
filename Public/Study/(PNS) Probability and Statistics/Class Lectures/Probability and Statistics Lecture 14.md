@@ -1,8 +1,8 @@
 ---
 Title: Probability and Statistics Lecture 14
-Status: 
+Status: Incomplete
 marker: 
-tags: 
+tags: incomplete
 Date: 2025.02.12
 Time: 14:09
 ---

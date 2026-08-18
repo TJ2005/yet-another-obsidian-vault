@@ -1,3 +1,8 @@
+---
+Status: Incomplete
+tags: incomplete
+---
+
 There was a need to secure end user traffic from multiple kinds of manipulations such as
 - Unauthorized Monitoring
 - Secure end to end encryption

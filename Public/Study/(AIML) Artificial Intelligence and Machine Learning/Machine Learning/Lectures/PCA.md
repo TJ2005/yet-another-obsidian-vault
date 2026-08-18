@@ -1,9 +1,9 @@
 ---
 Title: PCA
-Status: 
+Status: Incomplete
 marker:
   - "[[Artificial Intelligence Index]]"
-tags:
+tags: incomplete
   - BTech
 Date: 2025.08.14
 Time: 13:00

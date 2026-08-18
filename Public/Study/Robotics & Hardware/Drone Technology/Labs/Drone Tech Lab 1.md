@@ -1,8 +1,8 @@
 ---
 Title: "Drone Tech Lab 1"
-Status: 
+Status: Incomplete
 marker: 
-tags: 
+tags: incomplete
 Date: "2025.09.22"
 Time: "16:23"
 ---

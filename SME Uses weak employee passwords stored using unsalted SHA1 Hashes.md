@@ -2,11 +2,11 @@
 
 Title: "SME Uses weak employee passwords stored using unsalted SHA1 Hashes"
 
-Status:
+Status: Incomplete
 
 marker:
 
-tags:
+tags: incomplete
 
 Date: "2026.02.24"
 

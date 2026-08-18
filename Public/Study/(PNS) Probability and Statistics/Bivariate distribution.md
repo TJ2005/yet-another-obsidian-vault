@@ -1,8 +1,8 @@
 ---
 Title: Bivariate distribution
-Status: 
+Status: Incomplete
 marker: 
-tags: 
+tags: incomplete
 Date: 2025.04.22
 Time: 17:03
 ---

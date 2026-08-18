@@ -1,8 +1,8 @@
 ---
 Title: "DFIR Lab 6 - Ann's Rendezvous: Wireshark SMTP Analysis"
-Status: 
+Status: Incomplete
 marker: 
-tags:
+tags: incomplete
 Date: "2026.03.05"
 Time: "11:02"
 ---

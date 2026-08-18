@@ -1,11 +1,11 @@
 ---
 Title: Signals & Systems Lab 3
-Status: 
+Status: Incomplete
 marker:
   - "[[Signals and System]]"
   - "[[Lab]]"
   - "[[Matlab]]"
-tags:
+tags: incomplete
   - BTech
 Date: 2024.08.30
 Time: 13:54

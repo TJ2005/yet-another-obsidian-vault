@@ -1,10 +1,10 @@
 ---
 Title: Probability and Statistics (P&S)
-Status: 
+Status: Incomplete
 marker:
   - "[[Btech]]"
   - "[[Btech Fourth Semester Index]]"
-tags:
+tags: incomplete
   - BTech
 Date: 2025.01.10
 Time: 03:47

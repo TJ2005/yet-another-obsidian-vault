@@ -1,8 +1,8 @@
 ---
 Title: "Probability & Statistics Lecture 2"
-Status: 
+Status: Incomplete
 marker: 
-tags: 
+tags: incomplete
 Date: "2025.02.03"
 Time: "15:25"
 ---

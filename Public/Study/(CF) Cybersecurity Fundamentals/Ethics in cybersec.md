@@ -1,8 +1,8 @@
 ---
 Title: "Ethics in cybersec"
-Status: 
+Status: Incomplete
 marker: 
-tags: 
+tags: incomplete
 Date: "2025.08.05"
 Time: "15:05"
 ---

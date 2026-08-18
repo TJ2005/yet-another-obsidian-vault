@@ -1,3 +1,8 @@
+---
+Status: Incomplete
+tags: incomplete
+---
+
 Security in the Design of Operating Systems  Simplicity of Design  Layered Design  Kernelized Design  Reference Monitor  Correctness and Completeness  Secure Design Principles  Trusted Systems 12 Pintu R Shah MPSTME SVKM
 
 ## Security kernel

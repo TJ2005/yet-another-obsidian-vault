@@ -1,8 +1,8 @@
 ---
 Title: "Probability and Statistics Lab 4 Part 2"
-Status: 
+Status: Incomplete
 marker: 
-tags: 
+tags: incomplete
 Date: "2025.03.13"
 Time: "16:52"
 ---

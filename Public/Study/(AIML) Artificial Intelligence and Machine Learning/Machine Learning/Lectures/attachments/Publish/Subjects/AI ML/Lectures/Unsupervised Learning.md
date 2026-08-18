@@ -1,8 +1,8 @@
 ---
 Title: Unsupervised Learning
-Status: true
+Status: Incomplete
 marker:
-tags:
+tags: incomplete
   - BTech
 Date: 2025.10.09
 Time: 09:03

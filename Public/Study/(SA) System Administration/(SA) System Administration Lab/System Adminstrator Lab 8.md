@@ -2,11 +2,11 @@
 
 Title: "System Adminstrator Lab 8"
 
-Status:
+Status: Incomplete
 
 marker:
 
-tags:
+tags: incomplete
 
 Date: ""
 

@@ -1,3 +1,8 @@
+---
+Status: Incomplete
+tags: incomplete
+---
+
 # Hypothesis Testing and Prerequisite Knowledge
 
 A **hypothesis** is a **statement or assumption** about a **population parameter** (e.g., mean, proportion) that can be tested using statistical methods. It is the foundation of **hypothesis testing**, which determines whether there is enough statistical evidence in a sample to **infer** a conclusion about the entire population.

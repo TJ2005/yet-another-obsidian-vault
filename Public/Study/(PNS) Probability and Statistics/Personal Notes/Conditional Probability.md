@@ -1,9 +1,9 @@
 ---
 Title: Conditional Probability
-Status: 
+Status: Incomplete
 marker:
   - "[[Probability and Statistics (PNS)]]"
-tags: 
+tags: incomplete
 Date: 2025.02.03
 Time: 11:27
 ---

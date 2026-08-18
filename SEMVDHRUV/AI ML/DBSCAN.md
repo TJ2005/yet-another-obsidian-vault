@@ -1,3 +1,8 @@
+---
+Status: Incomplete
+tags: incomplete
+---
+
 A point ( sample )on the graph has a radius. The number of elements in the radius of that circle need to hit a certain threshold to create a cluster.
 
 Every data point is surrounded by a circle with radius $\epsilon$ (epsilon)

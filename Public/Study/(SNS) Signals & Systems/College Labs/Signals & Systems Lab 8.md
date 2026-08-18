@@ -1,8 +1,8 @@
 ---
 Title: Signals & Systems Lab 8
-Status: 
+Status: Incomplete
 marker: 
-tags: 
+tags: incomplete
 Date: 2024.10.04
 Time: 12:23
 ---

@@ -2,11 +2,11 @@
 
 Title: "Vulnhub PPT"
 
-Status:
+Status: Incomplete
 
 marker:
 
-tags:
+tags: incomplete
 
 Date: "2026.04.07"
 

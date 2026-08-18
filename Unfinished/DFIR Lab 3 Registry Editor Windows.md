@@ -2,11 +2,11 @@
 
 Title: "DFIR Lab 3 Registry Editor Windows"
 
-Status:
+Status: Incomplete
 
 marker:
 
-tags:
+tags: incomplete
 
 Date: "2026.01.29"
 

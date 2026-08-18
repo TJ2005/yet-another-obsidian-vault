@@ -1,8 +1,8 @@
 ---
 Title: "Chi Squared Test"
-Status: 
+Status: Incomplete
 marker: 
-tags: 
+tags: incomplete
 Date: "2025.04.02"
 Time: "14:10"
 ---
