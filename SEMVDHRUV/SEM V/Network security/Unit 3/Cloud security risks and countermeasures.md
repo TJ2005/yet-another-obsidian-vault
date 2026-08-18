@@ -1,5 +1,3 @@
-
----
 ## Abuse and nefarious use of cloud resources
 
 Expensive infrastructure can be used to attack on a larger scale and an even larger attack surface.

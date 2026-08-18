@@ -1,6 +1,4 @@
 
----
-
 ## Multiple Linear Regression
 
 ### Definition  
