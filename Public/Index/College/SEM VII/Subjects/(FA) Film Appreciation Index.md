@@ -32,6 +32,7 @@ Date: "2026.08.19"
 
 ### Unit 2 — Visual Literacy
 
+- [[Unit 2 — Definitive Note|Unit 2 — Definitive Note (with Glossary)]] — semiotics, film vocabulary, sound, mise-en-scène — stable definitions
 - [[Film Grammar — Shots, Angles, Movement, Editing]] — frame/shot/scene/sequence, camera angles, movement, editing
 - [[Mise-en-Scène]] — Bazin, naturalistic/theatrical, lighting, analysis checklist
 - [[Elements of Film Sound]] — diegetic/non-diegetic, soundtrack vs score

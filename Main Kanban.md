@@ -10,6 +10,10 @@ kanban-plugin: board
 - [ ] ##### connect@dascain.com
 - [ ] https://bts.com/contact
 - [ ] alphasights
+- [ ] JLR Case study OT System SAP Net Weaver
+- [ ] Marks & Spencer tap and go
+- [ ] Mclaren Backend TCS
+- [ ] ISO 22301
 
 
 ## Under Progress

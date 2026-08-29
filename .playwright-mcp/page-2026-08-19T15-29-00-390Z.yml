@@ -1,0 +1,61 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e5]:
+    - generic [ref=e7]:
+      - link "Skip to content" [ref=e9] [cursor=pointer]:
+        - /url: "#main"
+      - generic [ref=e13]:
+        - banner [ref=e14]:
+          - generic [ref=e16]:
+            - generic [ref=e17]:
+              - link "Semester 7 Student Planner" [ref=e19] [cursor=pointer]:
+                - /url: /s7-notes?pvs=18
+              - generic [ref=e28]: /
+              - generic [ref=e30]:
+                - button "..." [ref=e31] [cursor=pointer]
+                - generic [ref=e32]: /
+              - link "📚 Digital Image and Video Forensics" [ref=e34] [cursor=pointer]:
+                - /url: /Digital-Image-and-Video-Forensics-27b08acef7508337838801f0c9ac62d4?pvs=18
+                - generic [ref=e35]:
+                  - generic [ref=e36]: 📚
+                  - generic [ref=e39]: Digital Image and Video Forensics
+              - generic [ref=e43]: /
+              - button "🧪 Lab 2" [disabled] [ref=e44]:
+                - generic [ref=e45]: 🧪
+                - generic [ref=e48]: Lab 2
+            - generic [ref=e49]:
+              - button "Close panel" [ref=e51] [cursor=pointer]
+              - generic [ref=e55]:
+                - button [ref=e56] [cursor=pointer]
+                - button "More actions" [ref=e60] [cursor=pointer]
+                - button "Get Notion free" [ref=e63] [cursor=pointer]
+        - main [ref=e64]:
+          - generic [ref=e69]:
+            - generic [ref=e72]:
+              - img "Page icon" [ref=e77]: 🧪
+              - heading "Lab 2" [level=1] [ref=e82]
+            - generic [ref=e84]:
+              - figure [ref=e86]:
+                - button "DIVF_Practical_2_Image_Forensics (2).docx 33.7 KiB" [ref=e88] [cursor=pointer]:
+                  - generic [ref=e95]:
+                    - generic [ref=e96]: DIVF_Practical_2_Image_Forensics (2).docx
+                    - generic [ref=e97]: 33.7 KiB
+              - figure [ref=e105]:
+                - button "K036_LAB02_DIVF.docx 7.2 MiB" [ref=e107] [cursor=pointer]:
+                  - generic [ref=e114]:
+                    - generic [ref=e115]: K036_LAB02_DIVF.docx
+                    - generic [ref=e116]: 7.2 MiB
+              - figure [ref=e118]:
+                - button "GHIRO-original-html-report.htm 398.6 KiB" [ref=e120] [cursor=pointer]:
+                  - generic [ref=e127]:
+                    - generic [ref=e128]: GHIRO-original-html-report.htm
+                    - generic [ref=e129]: 398.6 KiB
+              - figure [ref=e131]:
+                - button "GHIRO-tampered-html-report.htm 328.4 KiB" [ref=e133] [cursor=pointer]:
+                  - generic [ref=e140]:
+                    - generic [ref=e141]: GHIRO-tampered-html-report.htm
+                    - generic [ref=e142]: 328.4 KiB
+        - region [ref=e151]
+    - status [ref=e152]
+    - alert [ref=e153]
+  - iframe [ref=e154]:
+    
