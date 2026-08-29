@@ -16,6 +16,7 @@ tags: [semester-7, cybersecurity, HLACS]
 - [[(HLACS) Lab 2]]
 - [[(HLACS) Lab 3]]
 - [[(HLACS) Lab 4]]
+- [[(HLACS) Lab 5]]
 
 ## Lectures
 
