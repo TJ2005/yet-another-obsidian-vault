@@ -52,7 +52,7 @@ Perform a Business Impact Analysis (BIA) for a mock IT infrastructure.
 
 | Field | Answer |
 | --- | --- |
-| **Organisation name** | Sahyadri ERP Technologies |
+| **Organisation name** | ERP Studios |
 | **What it provides** | ERP services — focused on freight-forwarding companies |
 | **Headquarters** | Belapur |
 | **Geographies served** | India |
@@ -109,7 +109,7 @@ Perform a Business Impact Analysis (BIA) for a mock IT infrastructure.
 
 ### Part 3 — Executive summary
 
-**1. Goals and purpose of the BIA.** Sahyadri ERP Technologies conducted this Business Impact Analysis to determine how a disruption to its freight-forwarding ERP platform affects each customer business function, and to define the recovery priorities that will underpin its Business Continuity and Disaster Recovery planning. The exercise identifies mission-critical functions, their data dependencies and the maximum tolerable downtime, so that recovery investment is directed at the functions whose loss damages revenue, customers or regulatory standing. The BIA validates every dataset against the CIA + Privacy (CIAP) objectives before any recovery target is set.
+**1. Goals and purpose of the BIA.** ERP Studios conducted this Business Impact Analysis to determine how a disruption to its freight-forwarding ERP platform affects each customer business function, and to define the recovery priorities that will underpin its Business Continuity and Disaster Recovery planning. The exercise identifies mission-critical functions, their data dependencies and the maximum tolerable downtime, so that recovery investment is directed at the functions whose loss damages revenue, customers or regulatory standing. The BIA validates every dataset against the CIA + Privacy (CIAP) objectives before any recovery target is set.
 
 **2. Crown Jewels summary and assessment.** The organisation's crown jewels concentrate in transactional and financial data: shipment and fleet information, carrier documents (Bill of Lading, LR), payment and salary records, and the API keys that tie the platform to carrier line integrations. Exposure of these assets is assessed as **Critical** — their confidentiality, integrity and availability requirements are all confirmed under CIAP. Employee KYE and salary data additionally carry high privacy weight under the DPDP Act. Together these assets attract the highest confidentiality and integrity ratings in the register, and their loss would be both financially and legally material.
 
@@ -169,7 +169,7 @@ Perform a Business Impact Analysis (BIA) for a mock IT infrastructure.
 
 ## Conclusion
 
-The BIA shows that Sahyadri ERP Technologies' freight platform is disproportionately dependent on a shared transaction core serving six critical functions with RTOs of 1–4 hours. Confidentiality and integrity risks concentrate in documentation, financial and integration assets, while availability risk is driven by the core platform floor. Because recovery resources are limited and the risk appetite for privacy or integrity losses is very low, the organisation must implement tiered, tested recovery runbooks, isolated backups, and strict access controls around its crown jewels before a disruption materialises. Documented and routinely exercised, this BIA enables management to invest where impact is greatest and to keep business functions within their defined recovery objectives.
+The BIA shows that ERP Studios' freight platform is disproportionately dependent on a shared transaction core serving six critical functions with RTOs of 1–4 hours. Confidentiality and integrity risks concentrate in documentation, financial and integration assets, while availability risk is driven by the core platform floor. Because recovery resources are limited and the risk appetite for privacy or integrity losses is very low, the organisation must implement tiered, tested recovery runbooks, isolated backups, and strict access controls around its crown jewels before a disruption materialises. Documented and routinely exercised, this BIA enables management to invest where impact is greatest and to keep business functions within their defined recovery objectives.
 
 ## References
 

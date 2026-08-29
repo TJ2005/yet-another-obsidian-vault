@@ -14,5 +14,11 @@ tags: [semester-7, cybersecurity, CRM]
 - [[CRM Lab 1]]
 - [[CRM Lab 2]]
 - [[CRM Lab 3]]
+- [[CRM Lab 4]]
+- [[CRM Lab 5]]
+- [[CRM Lab 5 — OOCL India BIA]]
+- [[CRM LAB 5]]
 
 ## Lectures
+
+- [[BIA]]

@@ -50,7 +50,7 @@ The following risks and infrastructure domains are reviewed from the earlier exe
 
 ### Company profile
 
-For this assessment, the organisation is **Sahyadri ERP Technologies Pvt. Ltd.**, an Indian technology company providing a cloud-based enterprise resource planning platform to customers in multiple geographies.
+For this assessment, the organisation is **ERP Studios Pvt. Ltd.**, an Indian technology company providing a cloud-based enterprise resource planning platform to customers in multiple geographies.
 
 | Question | Working answer |
 | --- | --- |
@@ -173,7 +173,7 @@ The following table of contents structures the proposed IT risk management plan 
 
 ### Scenario: Loss or unavailability of ERP invoice records
 
-Sahyadri ERP Technologies stores approximately 50,000 customer invoice records with an average recorded value of ₹20,000. Their combined face value is therefore ₹100 crore. However, the full face value is not treated as the Asset Value because an outage does not automatically destroy every underlying customer transaction. For risk estimation, the company assigns an operational Asset Value of ₹1 crore to the invoice dataset and its supporting service. This represents restoration work, downtime, invoice verification and re-creation, delayed collections, customer support, contractual consequences, and incident handling.
+ERP Studios stores approximately 50,000 customer invoice records with an average recorded value of ₹20,000. Their combined face value is therefore ₹100 crore. However, the full face value is not treated as the Asset Value because an outage does not automatically destroy every underlying customer transaction. For risk estimation, the company assigns an operational Asset Value of ₹1 crore to the invoice dataset and its supporting service. This represents restoration work, downtime, invoice verification and re-creation, delayed collections, customer support, contractual consequences, and incident handling.
 
 The following planning assumptions are used for this quantitative assessment.
 
