@@ -14,6 +14,8 @@ tags: [semester-7, cybersecurity, DIVF]
 
 - [[DIVF Lab 1]]
 - [[DIVF Lab 2]]
+- [[DIVF Lab 3]]
+- [[DIVF Lab 4]]
 
 ## Notes
 
