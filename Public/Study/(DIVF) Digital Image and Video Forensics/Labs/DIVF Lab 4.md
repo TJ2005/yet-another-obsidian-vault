@@ -46,6 +46,14 @@ imwrite(I, 'task1_color.png');       % Save outputs for the report
 imwrite(I_gray, 'task1_gray.png');
 ```
 
+**Output Screenshots**
+
+**Original Color Image (peppers.png)**
+![Original Color Image](Lab 4/attachments/img_1.png)
+
+**Grayscale Conversion**
+![Grayscale Image](Lab 4/attachments/img_2.png)
+
 **Observations**
 
 - **Color vs Grayscale** — The color image has three channels (R, G, B) per pixel while the grayscale image keeps only one intensity value per pixel. Color information is lost but shapes and brightness remain the same.
@@ -68,6 +76,14 @@ title('Cropped Region');
 imwrite(I_resized, 'task2_resized.png');
 imwrite(I_cropped, 'task2_cropped.png');
 ```
+
+**Output Screenshots**
+
+**Resized Image (50%)**
+![Resized Image](Lab 4/attachments/img_3.png)
+
+**Cropped Region (100×100 from 50,50)**
+![Cropped Region](Lab 4/attachments/img_4.png)
 
 **Observations**
 
@@ -93,6 +109,11 @@ subplot(1,2,2); imhist(I_eq); title('Equalized Histogram');
 
 imwrite(I_eq, 'task3_equalized.png');
 ```
+
+**Output Screenshots**
+
+**Histogram Equalized Image**
+![Equalized Image](Lab 4/attachments/img_5.png)
 
 **Observations**
 
@@ -130,6 +151,17 @@ imwrite(I_mean, 'task4_mean.png');
 imwrite(I_median, 'task4_median.png');
 ```
 
+**Output Screenshots**
+
+**Image with Gaussian Noise**
+![Noisy Image](Lab 4/attachments/img_6.png)
+
+**Mean Filtered (3×3 average)**
+![Mean Filtered](Lab 4/attachments/img_7.png)
+
+**Median Filtered (3×3 median)**
+![Median Filtered](Lab 4/attachments/img_8.png)
+
 **Observations**
 
 - **Mean vs Median filtering** — The mean filter makes the noisy image smooth but blurs edges (linear filter). The median filter removes the noise and still keeps the edges fairly sharp (non-linear, order-statistic filter).
@@ -153,6 +185,14 @@ imwrite(I_canny, 'task5_canny.png');
 
 disp('All tasks complete. Output images saved in the Current Folder.');
 ```
+
+**Output Screenshots**
+
+**Sobel Edge Detection**
+![Sobel Edges](Lab 4/attachments/img_9.png)
+
+**Canny Edge Detection**
+![Canny Edges](Lab 4/attachments/img_10.png)
 
 **Observations**
 

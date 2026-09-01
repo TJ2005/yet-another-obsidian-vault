@@ -43,6 +43,14 @@ Detection of document forgery and tampering evidence through systematic forensic
 | **doc2-sample (image2.jpg)** | Office letter with digital content edit (changed word/font/author) | Digital content modification |
 | **cheque-sample (cheque1.jpg)** | Test cheque with erased payee name | Physical erasure/alteration |
 
+## Sample Images (from Assignment Document)
+
+**Forensic Analysis Table Template**
+![Forensic Table](Lab 3/attachments/img_1.png)
+
+**Sample Images Guidance**
+![Sample Images](Lab 3/attachments/img_2.jpg)
+
 ## Procedure
 
 ### For Each Document

@@ -44,6 +44,23 @@ To detect image tampering and analyze forensic evidence using Error Level Analys
 - Repeat with an original image and compare results
 - Take a screenshot of the ELA and metadata analysis for submission
 
+### FotoForensics Screenshots (Extracted from Lab Document)
+
+**FotoForensics Upload Interface**
+![FotoForensics Upload](Lab 2/attachments/img_1.png)
+
+**ELA Result — Tampered Image**
+![ELA Tampered](Lab 2/attachments/img_2.png)
+
+**Metadata Display — Camera Info**
+![Metadata Camera](Lab 2/attachments/img_3.png)
+
+**ELA Result — Original Image**
+![ELA Original](Lab 2/attachments/img_4.png)
+
+**Metadata Display — Original Image**
+![Metadata Original](Lab 2/attachments/img_5.png)
+
 ### Observations (FotoForensics)
 
 | Image | ELA Result | Metadata Findings |
@@ -66,6 +83,35 @@ To detect image tampering and analyze forensic evidence using Error Level Analys
   - Tampering clues (edited using software, thumbnail mismatch, etc.)
   - Hash values (MD5, SHA1, SHA256)
 - Export or screenshot the forensic report for submission
+
+### Ghiro Interface Screenshots
+
+**Ghiro Login Page**
+![Ghiro Login](Lab 2/attachments/img_6.png)
+
+**New Case Creation**
+![New Case](Lab 2/attachments/img_7.png)
+
+**Image Upload Interface**
+![Image Upload](Lab 2/attachments/img_8.png)
+
+**Analysis Results — Overview**
+![Analysis Overview](Lab 2/attachments/img_9.png)
+![Analysis Details 1](Lab 2/attachments/img_10.png)
+![Analysis Details 2](Lab 2/attachments/img_11.png)
+![Analysis Details 3](Lab 2/attachments/img_12.png)
+
+**Original Image — Detailed Analysis**
+![Original Details](Lab 2/attachments/img_13.png)
+![Original More](Lab 2/attachments/img_14.png)
+
+**Tampered Image — Detailed Analysis**
+![Tampered Details](Lab 2/attachments/img_15.png)
+![Tampered More 1](Lab 2/attachments/img_16.png)
+![Tampered More 2](Lab 2/attachments/img_17.png)
+![Tampered More 3](Lab 2/attachments/img_18.png)
+![Tampered More 4](Lab 2/attachments/img_19.png)
+![Tampered More 5](Lab 2/attachments/img_20.png)
 
 ### Ghiro Analysis Results — Original Image
 
